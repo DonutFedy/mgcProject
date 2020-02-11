@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GameServer">
+      <UniqueIdentifier>{6537d023-8f66-4f73-ad3c-488ef634a046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{9d4e5b4b-429a-44c0-bd20-c402cbab40de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{6c4a77e8-829e-4e60-81c1-3023005c145f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{c217afdd-3be8-4904-8a6f-9d729342daef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Social">
+      <UniqueIdentifier>{50754af7-7564-4466-8e6f-c52d38368251}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="InGame.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SocialManager.cpp">
+      <Filter>Social</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameServer.h">
+      <Filter>GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomPacket.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="InGame.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="InGamePacket.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialPacket.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialManager.h">
+      <Filter>Social</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
