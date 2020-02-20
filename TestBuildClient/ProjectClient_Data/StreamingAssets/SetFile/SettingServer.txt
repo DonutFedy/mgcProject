@@ -1,2 +1,2 @@
-loginServer 10.255.252.95 10000
-gameServer 10.255.252.100 10011
+loginServer 10.255.252.83 10000
+gameServer 10.255.252.83 10010
